@@ -15,7 +15,7 @@ namespace GraphicsProject
             this.BackColor = Color.WhiteSmoke;
 
             pictureBox1.Paint += pictureBox1_Paint;
-            img = Image.FromFile(@"E:\DotNet\New folder\images.png");
+            img = Image.FromFile("images.png");
             square = new List<PointF>()
     {
         new PointF(100,100),
